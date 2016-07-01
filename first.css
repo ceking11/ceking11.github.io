@@ -1,0 +1,61 @@
+h1 {
+    color:#6633FF;
+    background-color:#99ff99;
+    font-size:100px;
+    text-shadow: inherit;
+}
+img {
+    height:200px;
+    border-style: groove;
+    border-color:black;
+    
+}
+
+img.scratch {
+    height:100px;
+    border-style: groove;
+    border-color:black;
+    
+}
+
+table{
+    position: absolute;
+    width:100%;
+    border:none;
+    background-color: #99ff99;
+    font-family: fantasy;
+    font-size: 40px;
+    bottom:10px;
+    text-align: center;
+    
+}
+body{
+    background-image: url(images/tropical.jpg)
+}
+div{
+    position:absolute;
+    height:100%;
+    background-color: #EEE8AA;
+    margin-left: 10%;
+    margin-right: 10%;
+    width:80%;
+}
+   /* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: #6633FF;
+}
+
+/* mouse over link */
+img:hover {
+   color:purple;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+} 
